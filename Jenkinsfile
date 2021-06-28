@@ -3,7 +3,7 @@ pipeline
 agent any
 stages
 {
-stage "Compile"
+stage ('Compile')
 {
 steps
 {
@@ -11,7 +11,7 @@ echo "Compiled successfully"
 }
 }
 
-stage "Build"
+stage ('Build)
 {
 steps
 {
@@ -19,7 +19,7 @@ echo "Built successfully"
 }
 }
 
-stage "Test"
+stage ('Test')
 {
 steps
 {
@@ -27,7 +27,7 @@ echo "Tested successfully"
 }
 }
 
-stage "Deploy"
+stage ('Deploy')
 {
 steps
 {
