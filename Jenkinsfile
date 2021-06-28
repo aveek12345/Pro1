@@ -11,7 +11,7 @@ echo "Compiled successfully"
 }
 }
 
-stage ('Build)
+stage ('Build')
 {
 steps
 {
